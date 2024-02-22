@@ -1,0 +1,117 @@
+
+.featurWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5em;
+
+    span{
+        font-size: 4.3em;
+
+        strong{
+            background: linear-gradient(to bottom right, #ff0077, #333399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    a{
+        font-size: 1.2em;
+        padding: 7px 40px;
+        border-radius: 30px;
+        background: linear-gradient(to bottom right, #ff0077, #333399);
+    }
+}
+a{
+    text-decoration: none;
+}
+.projetIMG{
+    display: flex;
+    justify-content: center;
+}
+.projectItem{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 20px;
+
+    img{
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid #ff00778e;
+    }
+
+    .autrePro{
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+
+        .imgprojet23{
+            width: 100%;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .featured{
+        span{
+            font-size: 3em;
+        }
+        a{
+            font-size: 1em;
+        }
+    }
+}
+@media screen and (max-width: 690px){
+    .featured{
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    .featured span {
+        font-size: 2.5em;
+    }
+    .featured a {
+        font-size: .8em;
+        padding: 7px 30px;
+    }
+    .autrePro {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .featured{
+        span{
+            font-size: 2em;
+        }
+        a{
+            font-size: .7em;
+            padding: 7px 20px;
+        }
+    }
+}
+@media screen and (max-width: 420px){
+    .featured{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        span{
+            font-size: 2em;
+        }
+        a{
+            font-size: .7em;
+            padding: 7px 20px;
+        }
+    }
+}
