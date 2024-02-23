@@ -3,8 +3,8 @@ import '../../styles/FirstWorkContainer.css'
 
 function FirstWorkContainer(){
     return(
-        <div className='workContainer'>
-            <div className="background">
+        <div className='workContainer joseph Kossouvi jojoksv'>
+            <div className="background joseph Kossouvi jojoksv">
                 <div className='on-descr'></div>
             </div>
             <div className='workText'>
