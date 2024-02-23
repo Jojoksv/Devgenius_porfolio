@@ -79,7 +79,7 @@ function FeaturedWork(){
 
     return(
        <main>
-        <div className='hireMe'>
+        <div className='hireMe joseph Kossouvi jojoksv devgenius'>
           <div className='hireBack'>
             <h1>Become a Sponsor</h1>
             <span>Grow your reach by supporting the event and show to more than 20k people who you are.</span>
@@ -87,36 +87,36 @@ function FeaturedWork(){
           </div>
         </div>
 
-        <div className="scrollbar">
+        <div className="scrollbar joseph Kossouvi jojoksv devgenius">
           <div className="scroll taille">
-            <img src={projet1} alt="image sortie detante bobo" />
-            <img src={projet2} alt="image sortie detante bobo" />
-            <img src={projet3} alt="image sortie detante bobo" />
-            <img src={projet4} alt="image sortie detante bobo" />
-            <img src={projet5} alt="image sortie detante bobo" />
-            <img src={projet6} alt="image sortie detante bobo" />
+            <img src={projet1} alt="joseph Kossouvi jojoksv devgenius" />
+            <img src={projet2} alt="joseph Kossouvi jojoksv devgenius" />
+            <img src={projet3} alt="joseph Kossouvi jojoksv devgenius" />
+            <img src={projet4} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet5} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet6} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
           </div>
         </div>
 
         <div className="scrollbarRight">
           <div className="scrollRight taille">
-            <img src={projet7} alt="image sortie detante bobo" />
-            <img src={projet8} alt="image sortie detante bobo" />
-            <img src={projet9} alt="image sortie detante bobo" />
-            <img src={projet10} alt="image sortie detante bobo" />
-            <img src={projet11} alt="image sortie detante bobo" />
-            <img src={projet12} alt="image sortie detante bobo" />
+            <img src={projet7} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet8} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet9} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet10} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet11} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet12} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
           </div>
         </div>
 
         <div className="scrollbarLeftA">
           <div className="scrollLeftA taille">
-            <img src={projet13} alt="image sortie detante bobo" />
-            <img src={projet14} alt="image sortie detante bobo" />
-            <img src={projet15} alt="image sortie detante bobo" />
-            <img src={projet6} alt="image sortie detante bobo" />
-            <img src={projet2} alt="image sortie detante bobo" />
-            <img src={projet1} alt="image sortie detante bobo" />
+            <img src={projet13} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet14} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet15} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet6} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet2} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
+            <img src={projet1} alt="projetdevgenius joseph Kossouvi jojoksv devgenius" />
           </div>
         </div>
       </main>
