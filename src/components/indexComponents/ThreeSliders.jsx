@@ -1,6 +1,7 @@
 
 import '../../styles/ThreeSliders.css'
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom'
 import projet1 from '../../assets/projet1.png'
 import projet2 from '../../assets/projet2.png'
 import projet3 from '../../assets/projet3.png'
@@ -83,7 +84,7 @@ function FeaturedWork(){
           <div className='hireBack'>
             <h1>Become a Sponsor</h1>
             <span>Grow your reach by supporting the event and show to more than 20k people who you are.</span>
-            <a href="/Contact"><button>LET&apos;S TALK</button></a>
+            <Link href="/Contact"><button>LET&apos;S TALK</button></Link>
           </div>
         </div>
 
