@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import Error from './components/Error.jsx';
 import Index from './pages/Index.jsx'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/About' element={<About />} />
         <Route path='/Works' element={<Works />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path="*" element={<Navigate to="/errer" />} />
       </Routes>
       <Footer />
     </Router>
