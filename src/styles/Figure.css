@@ -228,7 +228,7 @@
   @media screen and (max-width: 580px){
     .figureFigure{
         font-size: 1.7em;
-        height: 45vh;
+        height: 65vh;
         gap: 50px;
         padding-top: 7em;
     }
@@ -241,7 +241,6 @@
   @media screen and (max-width: 490px){
     .figureFigure{
         font-size: 1.5em;
-        height: 65vh;
     }
   }
   @media screen and (max-width: 431px){
