@@ -84,7 +84,7 @@ function FeaturedWork(){
           <div className='hireBack'>
             <h1>Become a Sponsor</h1>
             <span>Grow your reach by supporting the event and show to more than 20k people who you are.</span>
-            <Link href="/Contact"><button>LET&apos;S TALK</button></Link>
+            <Link to="/Contact"><button>LET&apos;S TALK</button></Link>
           </div>
         </div>
 
