@@ -41,7 +41,7 @@ function Experience(){
 
 
     return(
-        <div className="experience">
+        <div className="experience joseph Kossouvi">
             <h1>My <span>Experiences </span>and <span>Competences</span></h1>
             <ul>
                 <li>
