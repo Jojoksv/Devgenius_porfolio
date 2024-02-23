@@ -6,17 +6,17 @@ import projet3 from '../../assets/projet3.png'
 
 function FeaturedWork(){
     return(
-        <section className='featurWork'>
-            <div className='featured'>
+        <section className='featurWork joseph Kossouvi jojoksv'>
+            <div className='featured joseph Kossouvi jojoksv'>
                 <span>Featured <strong>Work</strong></span>
                 <a href="/Works">ALL MY WORK</a>
             </div>
-            <div className='projetIMG'>
+            <div className='projetIMG joseph Kossouvi jojoksv'>
                 <div className='projectItem'>
-                    <img src={projet1} alt="" />
+                    <img src={projet1} alt=" projet jojoksv joseph Kossouvi jojoksv" />
                     <div className='autrePro'>
-                        <div className='imgprojet23'><img src={projet2} alt="projet2" /></div>
-                        <div className='imgprojet23'><img src={projet3} alt="projet3" /></div>
+                        <div className='imgprojet23'><img src={projet2} alt="projet2 joseph Kossouvi jojoksv" /></div>
+                        <div className='imgprojet23'><img src={projet3} alt="projet3 joseph Kossouvi jojoksv" /></div>
                     </div>
                 </div>
             </div>
