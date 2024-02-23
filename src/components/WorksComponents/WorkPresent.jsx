@@ -22,28 +22,28 @@ import projet19 from '../../assets/projet19.png'
 
 function WorkPresent(){
     return(
-        <div className='AllImgsWorks'>
+        <div className='AllImgsWorks joseph Kossouvi jojoksv'>
             <div className='worksIMGs'>
                 <div><img src={projet16} alt="" /></div>
             </div>
             <div className='othersWorksMade'>
-                <img src={projet3} alt="projet Site reactjs" />
-                <img src={projet4} alt="projet Site reactjs" />
-                <img src={projet5} alt="projet Site reactjs" />
-                <img src={projet6} alt="projet Site reactjs" />
-                <img src={projet7} alt="projet Site reactjs" />
-                <img src={projet8} alt="projet Site reactjs" />
-                <img src={projet9} alt="projet Site reactjs" />
-                <img src={projet10} alt="projet site reactjs" />
-                <img src={projet11} alt="projet site reactjs" />
-                <img src={projet12} alt="projet site reactjs" />
-                <img src={projet13} alt="projet site reactjs" />
-                <img src={projet14} alt="projet site reactjs" />
-                <img src={projet15} alt="projet site reactjs" />
-                <img src={projet2} alt="projet site reactjs" />
+                <img src={projet3} alt="projet Site joseph Kossouvi jojoksv" />
+                <img src={projet4} alt="projet Site joseph Kossouvi jojoksv" />
+                <img src={projet5} alt="projet Site joseph Kossouvi jojoksv" />
+                <img src={projet6} alt="projet Site joseph Kossouvi jojoksv" />
+                <img src={projet7} alt="projet Site joseph Kossouvi jojoksv" />
+                <img src={projet8} alt="projet Site joseph Kossouvi jojoksv" />
+                <img src={projet9} alt="projet Site joseph Kossouvi jojoksv" />
+                <img src={projet10} alt="projet site joseph Kossouvi jojoksv" />
+                <img src={projet11} alt="projet site joseph Kossouvi jojoksv" />
+                <img src={projet12} alt="projet site joseph Kossouvi jojoksv" />
+                <img src={projet13} alt="projet site joseph Kossouvi jojoksv" />
+                <img src={projet14} alt="projet site joseph Kossouvi jojoksv" />
+                <img src={projet15} alt="projet site joseph Kossouvi jojoksv" />
+                <img src={projet2} alt="projet site joseph Kossouvi jojoksv" />
             </div>
             <div className='worksIMGs'>
-                <div><img src={projet19} alt="" /></div>
+                <div><img src={projet19} alt="projet joseph Kossouvi jojoksv" /></div>
             </div>
         </div>
     )
