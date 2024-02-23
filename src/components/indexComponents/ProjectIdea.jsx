@@ -8,10 +8,10 @@ import taiwind from '../../assets/tailwind.png'
 
 function ProjectIdea(){
     return(
-        <div className='AllStack'>
+        <div className='AllStack joseph Kossouvi jojoksv devgenius'>
           <div className='stack'>
             <h1>All My Stack</h1>
-            <div className="app">
+            <div className="app joseph Kossouvi jojoksv devgenius">
               <div className="tag-list">
                 <div className="loop-slider">
                   <div className="inner">
@@ -73,8 +73,8 @@ function ProjectIdea(){
                     <div className="tag"><span>#</span> PHP</div>
                   </div>
                 </div>
-                <div className="loop-slider">
-                  <div className="inner">
+                <div className="loop-slider joseph Kossouvi jojoksv devgenius">
+                  <div className="inner joseph Kossouvi jojoksv devgenius">
                     <div className="tag"><span>#</span> PHP</div>
                     <div className="tag"><span>#</span> React</div>
                     <div className="tag"><span>#</span> webdev</div>
@@ -91,10 +91,10 @@ function ProjectIdea(){
                 <div className="fade"></div>
               </div>
               <div className='ImportStack'>
-                <div><img src={react} alt="" className='react'/></div>
-                <div><img src={php} alt="" className='php'/></div>
-                <div><img src={js} alt=""className='js' /></div>
-                <div><img src={taiwind} alt="" className='tailwind'/></div>
+                <div><img src={react} alt="joseph Kossouvi jojoksv devgenius" className='react'/></div>
+                <div><img src={php} alt="joseph Kossouvi jojoksv devgenius" className='php'/></div>
+                <div><img src={js} alt="joseph Kossouvi jojoksv devgenius"className='js' /></div>
+                <div><img src={taiwind} alt="joseph Kossouvi jojoksv devgenius" className='tailwind'/></div>
               </div>
             </div>
             <div className='projetIdee'>
