@@ -1,0 +1,207 @@
+
+.contactinner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.letstalk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+    height: 90vh;
+    gap: 30px;
+
+    .backcolor{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        z-index: -1;
+        background: #b9036d56;
+        animation: grow 2s linear infinite;
+        box-shadow:
+        0 0 5em 2em #ff004c6c,
+        0 0 50em 8em #1900ff33,
+        0 0 55em 8em #ff00371a;;
+    }
+
+    h1{
+        font-size: 6em;
+
+        span{
+            background: linear-gradient(to right, #ff0077, 30%, #333399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    p{
+        width: 60%;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+}
+.classContainer{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    gap: 10px;
+}
+.contactMeLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 2em;
+
+    .contentLinks{
+        display: flex;
+        flex-direction: column;
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 25px;
+
+    input{
+        height: 65px;
+        background-color: #3030309a;
+        border: none;
+        padding: 0 0 0 1.5rem;
+        color: #fff;
+        border-radius: 15px;
+        font-size: 1.3em;
+    }
+    input::placeholder{
+        color: #fff;
+    }
+    
+    textarea::placeholder{
+        color: #fff;
+    }
+
+    textarea{
+        border-radius: 15px;
+        background: #3030309a;
+        border: none;
+        padding: 1.5rem 0 0 1.5rem;
+        color: #fff;
+        font-size: 1.5em;
+    }
+    button{
+        color: #fff;
+        border-radius: 15px;
+        padding: 1rem 0;
+        border: none;
+        background: linear-gradient(to bottom right, #ff0077, 15%, #070030);
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+}
+.socialMedia{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    gap: 30px;
+
+    a{
+        width: 60px;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .letstalk{
+        height: 80vh;
+        font-size: .9em;
+
+        p{
+            width: 70%;
+        }
+    }
+    .contactMeLinks{
+        font-size: 1.7em;
+    }
+    
+}
+@media screen and (max-width: 950px) {
+    .letstalk{
+        font-size: .8em;
+        height: 75vh;
+
+        p{
+            width: 80%;
+        }
+    }
+    
+    .contactMeLinks{
+        font-size: 1.5em;
+    }
+    
+}
+@media screen and (max-width: 709px) {
+    .letstalk{
+        font-size: .7em;
+    }
+    
+    .contactMeLinks{
+        font-size: 1.4em;
+    }
+    
+}
+@media screen and (max-width: 609px) {
+
+    .classContainer{
+        flex-direction: column-reverse;
+    }
+    
+    .letstalk{
+        font-size: .6em;
+        height: 70vh;
+    }
+
+    .contactMeLinks{
+        font-size: 1.6em;
+    }
+    form{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .letstalk{
+        font-size: .5em;
+    }
+    .contactMeLinks{
+        font-size: 1.4em;
+    }
+    
+}
+@media screen and (max-width: 409px) {
+    .letstalk{
+        font-size: .4em;
+        height: 60vh;
+    }
+    .contactMeLinks{
+        font-size: 1.3em;
+    }
+    
+}
+@media screen and (max-width: 309px) {
+    .letstalk{
+        font-size: .5em;
+    }
+    .contactMeLinks{
+        font-size: 1.2em;
+    }
+}

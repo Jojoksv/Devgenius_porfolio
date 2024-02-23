@@ -1,0 +1,163 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 0 80px 0;
+    padding: 15px;
+    height: 95vh;
+    filter: contrast(80%) brightness(135%);
+    position: relative;
+}
+.scrollbar, .scrollbarRight, .scrollbarLeftA{
+    max-width: 95%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.scroll, .scrollRight, .scrollLeftA{
+    display: inline-block;
+}
+.taille img{
+    width: 340px;
+    height: 170px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.hireMe{
+    position: absolute;
+    width: 93%;
+    height: 94%;
+    background-color: #000000c5;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .hireBack{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+        gap: 40px;
+    }
+
+    h1{
+        text-wrap: nowrap;
+    }
+
+    span{
+        width: 75%;
+        text-align: center;
+    }
+    button{
+        border: none;
+        color: #000;
+        padding: 10px 30px;
+        font-weight: bold;
+        border-radius: 30px;
+        font-size: .7em;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    main{
+        height: 85vh;
+    }
+
+    .taille img{
+        width: 310px;
+        height: 150px;
+    }
+    .hireMe{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .taille img{
+        width: 310px;
+        height: 150px;
+    }
+    .hireMe{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 693px) {
+
+    main{
+        height: 60vh;
+    }
+
+    .taille img{
+        width: 200px;
+        height: 100px;
+    }
+    .hireMe{
+        font-size: 1.4em;
+    }
+    .hireBack{
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    main{
+        height: 40vh;
+        margin: 70px 0 40px 0;
+    }
+
+    .taille img{
+        width: 150px;
+        height: 85px;
+        margin-right: 20px;
+    }
+    .hireMe{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 420px) {
+
+    main{
+        height: 40vh;
+        margin: 50px 0 30px 0;
+    }
+
+    .taille img{
+        width: 130px;
+        height: 55px;
+        margin-right: 15px;
+    }
+    .hireMe{
+        font-size: 1em;
+    }
+    .hireBack{
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    main{
+        height: 30vh;
+        margin: 50px 0 30px 0;
+    }
+    
+    .hireMe{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 361px) {
+
+    main{
+        height: 35vh;
+        margin: 50px 0 30px 0;
+    }
+    .hireMe{
+        font-size: .9em;
+    }
+}

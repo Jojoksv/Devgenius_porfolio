@@ -1,0 +1,280 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.experience h1{
+    font-size: 4.5em;
+    padding: 3rem 5rem;
+
+    span{
+        background: linear-gradient(to right, #ff0077, 15%, #070030);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.experience ul {
+  padding: 50px 0;
+  filter: contrast(110%) brightness(110%);
+}
+
+.experience ul li {
+  position:relative;
+  list-style-type: none;
+  width: 6px;
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.experience ul li::after {
+  background: white;
+  content: '';
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  }
+
+
+.experience ul li div{
+  position: relative;
+  width: 600px;
+  padding: 15px;
+  border-radius: 5px;
+  bottom: 0;
+  background: #070030;
+}
+
+.experience ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.experience ul li:nth-child(even) div {
+  left: -665px;
+}
+
+.experience time {
+  font-weight: bold;
+  font-size: 2.5em;
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  background: linear-gradient(to right, #ff0077, 10%, #333399);
+  background-size: 200% auto;
+  animation-duration: gradient 2s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+
+  p{
+    font-size: 1.2em;
+  }
+}
+
+.experience ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.experience ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.experience ul li.show div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+@media screen and (max-width: 1300px) {
+
+  .experience{
+    time{
+      font-size: 2.3em;
+    }
+    ul li div p{
+      font-size: 1.1em;
+    }
+  }
+
+  .experience ul li div{
+    width: 500px;
+    padding: 15px;
+  }
+  .experience ul li:nth-child(even) div {
+    left: -569px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .experience{
+    h1{
+      font-size: 4em;
+      padding: 3rem 4rem;
+    }
+  }
+  .experience ul li div{
+    width: 450px;
+    padding: 15px;
+  }
+  .experience ul li:nth-child(even) div {
+    left: -519px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .experience{
+    h1{
+      font-size: 3.8em;
+    }
+  }
+  .experience ul li div{
+    width: 400px;
+  }
+  .experience ul li:nth-child(even) div {
+    left: -469px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .experience{
+    time{
+      font-size: 1.8em;
+    }
+    ul li div p{
+      font-size: .9em;
+    }
+  }
+  .experience{
+    h1{
+      font-size: 3.6em;
+      padding: 3rem 3rem;
+    }
+  }
+  .experience ul li div{
+    width: 350px;
+  }
+  .experience ul li:nth-child(even) div {
+    left: -419px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .experience{
+    h1{
+      font-size: 3.3em;
+      padding: 2rem 2rem;
+    }
+  }
+  .experience ul li div {
+    width: 250px;
+  }
+  .experience ul li:nth-child(even) div {
+    left: -319px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .experience{
+    h1{
+      font-size: 3.1em;
+      padding: 3rem 1rem 0 1rem;
+    }
+  }
+  .experience ul li {
+    margin: 0 50px;
+  }
+  .experience ul li div {
+    width: 450px;
+  }
+  .experience ul li:nth-child(even) div {
+    left: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .experience{
+    h1{
+      font-size: 2.8em;
+    }
+  }
+  .experience ul li div {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 550px) {
+
+  .experience{
+    time{
+      font-size: 1.6em;
+    }
+    ul li div p{
+      font-size: .8em;
+    }
+  }
+
+  .experience ul li div {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .experience{
+    h1{
+      font-size: 2.7em;
+    }
+  }
+  .experience ul li div {
+    width: 300px;
+  }
+  
+  .experience ul li {
+    margin: 0 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+
+  .experience{
+    time{
+      font-size: 1.4em;
+    }
+    ul li div p{
+      font-size: .75em;
+    }
+  }
+
+  .experience{
+    h1{
+      font-size: 2.6em;
+    }
+  }
+  .experience ul li div {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .experience{
+    h1{
+      font-size: 2.3em;
+    }
+  }
+  .experience ul li {
+    margin: 0 30px;
+  }
+  
+  .experience ul li div {
+    width: 230px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .experience{
+    h1{
+      font-size: 2.4em;
+    }
+  }
+}

@@ -1,0 +1,345 @@
+
+
+.AllStack{
+  display: flex;
+  justify-content: center;
+}
+
+.stack{
+  width: 95%;
+  h1{
+    font-size: 4em;
+    background: linear-gradient(to right, #ff0077, 7%, #0e0e6e, #333399);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+  }
+}
+
+
+
+
+  .app {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .loop-slider {
+    --duration: 15936ms;
+    --direction: normal;
+}
+
+.loop-slider.reverse {
+    --direction: reverse;
+}
+
+  .tag-list {
+    width: 35rem;
+    max-width: 90vw;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 1rem 0;
+    position: relative;
+    padding: 1.5rem 0;
+    overflow: hidden;
+  }
+  
+  .loop-slider {
+    .inner {
+      display: flex;
+      width: fit-content;
+      animation-name: loop;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: var(--direction);
+      animation-duration: var(--duration);
+    }
+  }
+  
+  .tag {
+    display: flex;
+    align-items: center;
+    gap: 0 0.2rem;
+    color: #e2e8f0;
+    font-size: 0.9rem;
+    background : linear-gradient(to bottom right, #ff0077, 30%, #333399);
+    border-radius: 0.4rem;
+    padding: 0.7rem 1rem;
+    margin-right: 1rem; 
+    box-shadow: 
+      0 0.1rem 0.2rem rgb(0 0 0 / 20%),
+      0 0.1rem 0.5rem rgb(0 0 0 / 30%),
+      0 0.2rem 1.5rem rgb(0 0 0 / 40%);
+    
+    span {
+      font-size: 1.2rem;
+      color: #64748b;
+    }
+  }
+  
+  .fade {
+    pointer-events: none;
+    background: linear-gradient(90deg, #1e293b, transparent 30%, transparent 70%, #1e293b);
+    position: absolute;
+    inset: 0;
+  }
+
+.projetIdee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  padding: 5rem 0;
+}
+.backIdee{
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  animation: grow 2s linear infinite;
+  z-index: -1;
+  box-shadow: 
+        0 0 5em 1em #ff0077,
+        0 0 50em 3em #ff0077;
+}
+
+.projettitle{
+  flex: 0 0 30%;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.projetname{
+  display: inline-block;
+  height: 1.5em;
+  overflow: hidden;
+  vertical-align: middle;
+  mask-image: linear-gradient(#000, #fff, #fff, #fff, 000);
+  mask-type: luminance;
+  mask-mode: alpha;
+  cursor: pointer;
+  padding: 8px 0;
+  width: 380px;
+  border-radius: 40px;
+  background : linear-gradient(to bottom right, #ff0077,  #333399 65%, #333399);
+  background-size: 200% auto;
+  animation: gradient 2s linear infinite;
+
+  .words{
+    display: inline-block;
+    list-style: none;
+    animation-name: slice;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+  }
+  .word{
+    display: block;
+    line-height: 1.37em;
+  }
+}
+
+.ImportStack{
+  display: flex;
+  flex-wrap: wrap;
+  width: 35rem;
+  justify-content: space-between;
+
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    width: 48%;
+    height: 11.5rem;
+    background-color: #000;
+    border-radius: 25px;
+    box-shadow: 
+    5px 5px 10px #3d3d3d36, 
+    -5px -5px 10px #3d3d3d36;
+
+    & .react{
+      z-index: 2;
+      width: 50%;
+      animation: rotate 3s linear infinite;
+    }
+
+    & .php{
+      width: 50%;
+      /* animation: rotate 3s linear infinite; */
+    }
+    & .js{
+      border-radius: 10px;
+    }
+    & .tailwind{
+      width: 70%;
+    }
+  }
+}
+
+@keyframes rotate {
+  0%{ transform: rotate(0deg);}
+  100%{ transform: rotate(360deg);}
+}
+
+@keyframes slice {
+  0%,
+  27%{ transform: translateY(0%);}
+
+  33%,
+  66%{ transform: translateY(-25%);}
+
+  66%,
+  93%{ transform: translateY(-50%);}
+
+  100%{ transform: translateY(-75%);}
+}
+  
+  @keyframes loop {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+
+@media screen and (max-width: 1220px) {
+
+  .tag-list{
+    width: 33rem;
+  }
+  .ImportStack{
+    width: 33rem;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .app{}
+
+  .tag-list{
+    width: 29rem;
+  }
+  .ImportStack{
+    width: 29rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+
+  .tag-list{
+    width: 27rem;
+  }
+  .ImportStack{
+    width: 27rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+
+  .tag-list{
+    width: 25rem;
+  }
+  .ImportStack{
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 900px) {
+
+  .tag-list{
+    width: 23rem;
+  }
+  .ImportStack{
+    width: 23rem;
+  }
+  .stack h1{
+    font-size: 3.5em;
+  }
+}
+@media screen and (max-width: 850px) {
+  .app{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tag-list{
+    width: 35rem;
+  }
+  .ImportStack{
+    width: 35rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  
+  .ImportStack{
+    width: 33rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  
+  .ImportStack{
+    width: 30rem;
+  }
+  
+  .stack h1{
+    font-size: 3.1em;
+  }
+}
+@media screen and (max-width: 640px) {
+  
+  .ImportStack{
+    width: 28rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  
+  .ImportStack{
+    width: 26rem;
+  }
+  
+  .stack h1{
+    font-size: 2.7em;
+  }
+}
+@media screen and (max-width: 445px) {
+  
+  .ImportStack{
+    width: 24rem;
+  }
+}
+@media screen and (max-width: 400px) {
+
+  .projetname{
+    width: 330px;
+    font-size: .9em;
+  }
+  
+  .ImportStack{
+    width: 22rem;
+  }
+}
+@media screen and (max-width: 380px) {
+
+  .projetname{
+    width: 310px;
+    font-size: .9em;
+  }
+  
+  .ImportStack{
+    width: 21rem;
+  }
+  
+  .stack h1{
+    font-size: 2.3em;
+  }
+}
+@media screen and (max-width: 360px) {
+  
+  .ImportStack{
+    width: 18rem;
+  }
+}
+
+
+

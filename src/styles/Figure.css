@@ -1,0 +1,269 @@
+
+
+.figureFigure{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    font-size: 4.5em;
+    padding-top: 1.2em;
+
+    h1{
+        line-height: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .h1Span1{
+        background: linear-gradient(to right, #0e0e6e, #333399 30%, #ff0077);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: figHaute .8s linear;
+    }
+    .h1Span2{
+        background: linear-gradient(to right, #ff0077, #0e0e6e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: figBas .8s linear;
+    }
+}
+.figureFreelance{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: .32em;
+    animation: appear 1s linear;
+}
+.fugureAvalable .backLinght{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    z-index: -1;
+}
+.fugureAvalable{
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    gap: 10px;
+
+    .availFree{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: linear-gradient(to bottom right, #ff0077, #333399);
+        background-size: 200% auto;
+        animation: gradient 2.5s linear infinite;
+        animation: grow 2s linear infinite;
+        box-shadow: 
+        0 0 5em 4em #070030,
+        0 0 5em 5em #070030;
+        z-index: -1;
+    }
+}
+.figureDescrib{
+    width: 50%;
+    font-size: .8em;
+
+    p{
+        color: #cececeb7;
+    }
+}
+.droite{
+    animation: droiteAppear .8s linear;
+}
+.gauche{
+    animation: gaucheAppear .8s linear;
+}
+
+@keyframes figHaute {
+    0%{ transform: translateY(-40%); opacity: 0;}
+    100%{ transform: translateY(0); opacity: 1;}
+}
+
+@keyframes figBas {
+    0%{ transform: translateY(40%); opacity: 0;}
+    100%{ transform: translateY(0); opacity: 1;}
+}
+
+@keyframes droiteAppear {
+    0%{ transform: translateX(-30%); opacity: 0;}
+    100%{ transform: translateX(0%); opacity: 1;}
+}
+@keyframes gaucheAppear {
+    0%{ transform: translateX(30%); opacity: 0;}
+    100%{ transform: translateX(0%); opacity: 1;}
+}
+
+@keyframes grow {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(1);}
+}
+
+@keyframes gradient {
+    0%{background-position: 0% 75%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 70%;}
+}
+
+/* ksb cflskdb vbsdkbfcsidifcdsi vkbsd ibvskdbfcisdb */
+
+@media screen and (max-width: 1300px){
+    .figureFigure{
+        font-size: 4em;
+        height: 88vh;
+    }
+  }
+  @media screen and (max-width: 1130px){
+    .figureFigure{
+        font-size: 3.7em;
+        height: 84vh;
+        padding-top: 2em;
+    }
+  }
+  @media screen and (max-width: 1080px){
+    .figureFigure{
+        font-size: 3.6em;
+        padding-top: 2em;
+    }
+    .availFree{
+        width: 10px;
+        height: 10px;
+  }
+  @keyframes grow {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+  }
+  @media screen and (max-width: 1040px){
+    .figureFigure{
+        font-size: 3.4em;
+        height: 65vh;
+    }
+  }
+  @media screen and (max-width: 995px){
+    .figureFigure{
+        font-size: 3.3em;
+        gap: 40px;
+        padding-top: 2em;
+    }}
+  @media screen and (max-width: 940px){
+    .figureFigure{
+        font-size: 3.2em;
+    }
+  }
+  @media screen and (max-width: 880px){
+    .figureFigure{
+        font-size: 3em;
+        height: 71vh;
+        gap: 30px;
+        padding-top: 2.5em;
+    }
+  }
+  @media screen and (max-width: 870px){
+    .figureFigure{
+        font-size: 2.8em;
+        height: 30vh;
+        padding-top: 3.5em;
+    }
+  }
+  @media screen and (max-width: 810px){
+    .figureFigure{
+        font-size: 2.6em;
+        padding-top: 3.5em;
+    }
+    
+  .availFree{
+    width: 5px;
+    height: 5px;
+}
+@keyframes grow {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+  }
+
+  @media screen and (max-width: 740px){
+    .figureFigure{
+        font-size: 2.5em;
+        height: 80vh;
+    }
+    .figureFreelance{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 25px;
+        font-size: .6em;
+    }
+    .figureDescrib{
+        width: 95%;
+    }
+  }
+  @media screen and (max-width: 720px){
+    .figureFigure{
+        font-size: 2.3em;
+        height: 70vh;
+        padding-top: 4em;
+    }
+  }
+  @media screen and (max-width: 660px){
+    .figureFigure{
+        font-size: 2.1em;
+    }
+  }
+  @media screen and (max-width: 640px){
+    .figureFigure{
+        font-size: 1.9em;
+    }
+  }
+  @media screen and (max-width: 580px){
+    .figureFigure{
+        font-size: 1.7em;
+        height: 45vh;
+        gap: 50px;
+        padding-top: 7em;
+    }
+  }
+  @media screen and (max-width: 541px){
+    .figureFigure{
+        font-size: 1.6em;
+    }
+  }
+  @media screen and (max-width: 490px){
+    .figureFigure{
+        font-size: 1.5em;
+        height: 35vh;
+    }
+  }
+  @media screen and (max-width: 431px){
+    .figureFigure{
+        font-size: 1.35em;
+    }
+  }
+  @media screen and (max-width: 391px){
+    .figureFigure{
+        font-size: 1.2em;
+
+    }
+  }
+  @media screen and (max-width: 340px){
+    .figureFigure{
+        font-size: 1.1em;
+    }
+  }
+  @media screen and (max-width: 310px){
+    .figureFigure{
+        font-size: 1em;
+    }
+  }
+
+

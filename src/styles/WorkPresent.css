@@ -1,0 +1,112 @@
+
+.AllImgsWorks{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.worksIMGs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div{
+        width: 95%;
+        max-height: 90vh;
+        overflow: hidden;
+        border-radius: 30px;
+
+        img{
+            width: 100%;
+            height: auto;
+            border-radius: 30px;
+            filter: brightness(65%) contrast(85%);
+            transition: transform 2s linear;
+        }
+    }
+
+    div:hover img{
+            transform: translateY(calc(-100% + 95vh));
+    }
+    div img{
+        transform: translateY(0%);
+}
+}
+
+.othersWorksMade{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    img{
+        width: 45%;
+        height: auto;
+        margin-top: 50px;
+        filter: brightness(65%) contrast(85%);
+        border-radius: 30px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .worksIMGs div{
+        height: 85vh;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .worksIMGs div{
+        height: 80vh;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .worksIMGs div{
+        height: 77vh;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .worksIMGs div{
+        height: 75vh;
+    }
+}
+@media screen and (max-width: 900px) {
+    .worksIMGs div{
+        height: 65vh;
+    }
+    .othersWorksMade{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .othersWorksMade img{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .worksIMGs div{
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 700px) {
+    .worksIMGs div{
+        height: 55vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    .worksIMGs div{
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    .worksIMGs div{
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 400px) {
+    .worksIMGs div{
+        height: 35vh;
+    }
+}
+@media screen and (max-width: 300px) {
+    .worksIMGs div{
+        height:30vh;
+    }
+}
+

@@ -1,0 +1,118 @@
+
+.jorneyDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    font-size: 2.3em;
+    width: 100%;
+    animation: appear 1s linear;
+
+    h1{
+        width: 90%;
+
+        span{
+            background: linear-gradient(to right, #ff0077, 10%, #333399);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+.skillsDiv{
+    display: flex;
+    justify-content: space-around;
+
+    div{
+        width: 35%;
+        padding: .5rem .5rem;
+        font-size: .6em;
+        background: linear-gradient(to bottom right, #ff0077, #070030 50%, #070030);
+        background-size: 200% auto;
+        animation: gradient 2s linear infinite;
+        overflow: hidden;
+    }
+    p{
+        width: 100%;
+        height: 100%;
+        padding: 2rem 1rem;
+        background-color: #000;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .jorneyDiv{
+        font-size: 2.15em;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .jorneyDiv{
+        font-size: 2.1em;
+    }
+    .skillsDiv div{
+        font-size: .55em;
+    }
+}
+@media screen and (max-width: 900px) {
+    .jorneyDiv{
+        font-size: 2.1em;
+        gap: 60px;
+    }
+    .skillsDiv div{
+        font-size: .5em;
+    }
+}
+@media screen and (max-width: 800px) {
+    .jorneyDiv{
+        font-size: 2em;
+    }
+    .skillsDiv div{
+        font-size: .45em;
+    }
+}
+@media screen and (max-width: 750px) {
+    .jorneyDiv{
+        padding-top: 50px;
+        gap: 50px;
+        h1{
+            font-size: 1.7em;
+            line-height: 1.3;
+        }
+    }
+    .skillsDiv{
+        width: 95%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .skillsDiv div{
+        width: 97%;
+        font-size: .5em;
+        padding: .25rem .25rem;
+
+        p{
+            width: auto;
+            padding: 2rem 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .jorneyDiv{
+        gap: 40px;
+        h1{
+            font-size: 1.5em;
+            line-height: 1.3;
+        }
+    }
+    .skillsDiv div{
+        font-size: .4em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .jorneyDiv{
+        h1{
+            font-size: 1.2em;
+        }
+    }
+}
+
