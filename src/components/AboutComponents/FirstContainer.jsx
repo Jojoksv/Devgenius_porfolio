@@ -5,7 +5,7 @@ import '../../styles/FirstContainer.css'
 
 function FirstContainer(){
     return(
-        <div className='firstContentContainer'>
+        <div className='firstContentContainer joseph Kossouvi'>
             <div className="background">
                 <div className='on-descr'></div>
             </div>
@@ -17,7 +17,7 @@ function FirstContainer(){
                     to bring your projects to life by creating 
                     exeptional visual experiences.
                 </p>
-                <img src={MySelf} alt="" />
+                <img src={MySelf} alt="joseph Kossouvi profile jojoksv" />
             </div>
         </div>
     )
