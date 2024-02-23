@@ -1,11 +1,39 @@
 
 import '../styles/Contact.css'
+
+import React, { useState } from 'react';
+import axios from 'axios';
+
 import linkedin from '../assets/linkedin.svg'
 import facebook from '../assets/facebook.svg'
 import gmail from '../assets/gmail.svg'
 
 
 function Contact() {
+
+    const [nom, setNom] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        
+        // Envoi des données du formulaire au serveur
+        axios.post('http://localhost:3000/Mail.php', {
+            nom: nom,
+            email: email,
+            message: message
+        })
+        .then((response) => {
+            console.log(response.data);
+            // Traitez la réponse du serveur ici si nécessaire
+        })
+        .catch((error) => {
+            console.error('Une erreur s\'est produite:', error);
+        });
+    };
+
+
     return(
         <div>
             <div className='contactinner'>
@@ -40,10 +68,10 @@ function Contact() {
                             </a>
                         </div>
                     </div>
-                    <form >
-                        <input type="text" name="" id="" placeholder='Name'/>
-                        <input type="email" name="" id="" placeholder='Email'/>
-                        <textarea name="" id="" cols="30" rows="6" placeholder='Message' />
+                    <form onSubmit={handleSubmit}>
+                        <input type="text" name="" id="" placeholder='Name' value={nom} onChange={(e) => setNom(e.target.value)}/>
+                        <input type="email" name="" id="" placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)}/>
+                        <textarea name="" id="" cols="30" rows="6" placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}/>
                         <button type="submit">Send Message</button>
                     </form>
                 </div>
