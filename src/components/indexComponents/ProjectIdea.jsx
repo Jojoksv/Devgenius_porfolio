@@ -5,6 +5,7 @@ import react from '../../assets/react.svg'
 import php from '../../assets/php.png'
 import js from '../../assets/js.png'
 import taiwind from '../../assets/tailwind.png'
+import { Link } from 'react-router-dom'
 
 function ProjectIdea(){
     return(
@@ -100,7 +101,7 @@ function ProjectIdea(){
             <div className='projetIdee'>
               <div className='backIdee'></div>
               
-            <a href="/Contact">
+            <Link to="/Contact">
               <div className='projettitle'>
                 <div className='projetname'>
                   <ul className='words'>
@@ -109,7 +110,7 @@ function ProjectIdea(){
                   </ul>
                 </div>
               </div>
-              </a>
+              </Link>
             </div>
             
           </div>
