@@ -3,7 +3,7 @@ import '../../styles/JorneyDeveloper.css'
 
 function JorneyDeveloper(){
     return(
-        <div className="jorneyDiv">
+        <div className="jorneyDiv joseph Kossouvi jojoksv">
             <h1>My journey <span>to development</span></h1>
             <div className="skillsDiv">
                 <div>
