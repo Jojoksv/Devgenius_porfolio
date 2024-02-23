@@ -33,8 +33,8 @@ function Header() {
   
 
   return (
-    <header className='headerHead'>
-      <div className='toogleHover'>
+    <header className='headerHead projetdevgenius joseph Kossouvi jojoksv devgenius'>
+      <div className='toogleHover projetdevgenius joseph Kossouvi jojoksv devgenius'>
         <div className='linkList'>
           <a href="/About" className='applyLink'>about</a>
           <a href="/Works" className='applyLink'>work</a>
@@ -53,7 +53,7 @@ function Header() {
                   <h1>DEV<span>GENIUS</span></h1>
               </div>
             </a>
-            <div className='headerMenu'>
+            <div className='headerMenu projetdevgenius joseph Kossouvi jojoksv devgenius'>
                 <span className='menu'>menu</span>
                 <button className="hamburger hamburger--spring" type="button" onClick={openHover}>
                     <span className="hamburger-box">
