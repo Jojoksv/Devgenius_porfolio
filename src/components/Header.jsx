@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import '../styles/Header.css';
+import { Link } from 'react-router-dom'
 
 function Header() {
   useEffect(() => {
@@ -36,23 +37,23 @@ function Header() {
     <header className='headerHead projetdevgenius joseph Kossouvi jojoksv devgenius'>
       <div className='toogleHover projetdevgenius joseph Kossouvi jojoksv devgenius'>
         <div className='linkList'>
-          <a href="/About" className='applyLink'>about</a>
-          <a href="/Works" className='applyLink'>work</a>
-          <a href="/Contact" className='applyLink'>contact</a>
-          <a href="/"><div className='headerSTitle'>
+          <Link to="/About" className='applyLink'>about</Link>
+          <Link to="/Works" className='applyLink'>work</Link>
+          <Link to="/Contact" className='applyLink'>contact</Link>
+          <Link to="/"><div className='headerSTitle'>
               <div className="doted"></div>
               <h1>DEV<span>GENIUS</span></h1>
           </div>
-          </a>
+          </Link>
         </div>
       </div>
         <nav className='headernav'>
-            <a href="/">
+            <Link to="/">
               <div className='headerTitle'>
                   <div className="doted"></div>
                   <h1>DEV<span>GENIUS</span></h1>
               </div>
-            </a>
+            </Link>
             <div className='headerMenu projetdevgenius joseph Kossouvi jojoksv devgenius'>
                 <span className='menu'>menu</span>
                 <button className="hamburger hamburger--spring" type="button" onClick={openHover}>
