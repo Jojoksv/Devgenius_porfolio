@@ -11,7 +11,7 @@ const ClientsWords = [
 
 function KindWords(){
     return(
-        <div className='expeKindWords'>
+        <div className='expeKindWords joseph Kossouvi jojoksv devgenius'>
             <h1 className='expeKindWordsTitle'>Kind Words from Clients</h1>
             <div className='UserExp'>
                 <div className='ExpContent'>
