@@ -3,11 +3,11 @@ import '../../styles/Figure.css'
 
 function Figure(){
     return(
-        <figure className="figureFigure">
+        <figure className="figureFigure joseph Kossouvi jojoksv devgenius">
             <h1>
-                <span className='h1Span1'>beautiful</span><span className='droite'> & unique</span> <span className='gauche'>visual </span> <span className='h1Span2'> experiences</span>
+                <span className='h1Span1 joseph Kossouvi jojoksv devgenius'>beautiful</span><span className='droite'> & unique</span> <span className='gauche'>visual </span> <span className='h1Span2'> experiences</span>
             </h1>
-            <div className='figureFreelance'>
+            <div className='figureFreelance joseph Kossouvi jojoksv devgenius'>
                 <div className='fugureAvalable'>
                     <div className='backLinght'></div>
                     <span className='availFree'></span>
