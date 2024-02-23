@@ -24,9 +24,9 @@ function WorkPresent(){
     return(
         <div className='AllImgsWorks joseph Kossouvi jojoksv'>
             <div className='worksIMGs'>
-                <div><img src={projet16} alt="" /></div>
+                <div><img src={projet16} alt="projet jojoksv joseph Kossouvi jojoksv" /></div>
             </div>
-            <div className='othersWorksMade'>
+            <div className='othersWorksMade joseph Kossouvi jojoksv'>
                 <img src={projet3} alt="projet Site joseph Kossouvi jojoksv" />
                 <img src={projet4} alt="projet Site joseph Kossouvi jojoksv" />
                 <img src={projet5} alt="projet Site joseph Kossouvi jojoksv" />
