@@ -3,7 +3,6 @@ import '../styles/Contact.css'
 
 import { useState } from 'react';
 import axios from 'axios';
-import { Standard } from "@typebot.io/react";
 
 import linkedin from '../assets/linkedin.svg'
 import facebook from '../assets/facebook.svg'
@@ -75,11 +74,6 @@ function Contact() {
                         <textarea name="" id="" cols="30" rows="6" placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}/>
                         <button type="submit">Send Message</button>
                     </form>
-                    
-                    <Standard
-                    typebot="user-onboarding-84vvc3k"
-                    style={{ width: "100%", height: "600px" }}
-                    />
                 </div>
             </div>
         </div>
