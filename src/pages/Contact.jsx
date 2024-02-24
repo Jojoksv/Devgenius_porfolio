@@ -74,6 +74,16 @@ function Contact() {
                         <textarea name="" id="" cols="30" rows="6" placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}/>
                         <button type="submit">Send Message</button>
                     </form>
+                    import { Standard } from "@typebot.io/react";
+
+const App = () => {
+  return (
+    <Standard
+      typebot="user-onboarding-84vvc3k"
+      style={{ width: "100%", height: "600px" }}
+    />
+  );
+};
                 </div>
             </div>
         </div>
