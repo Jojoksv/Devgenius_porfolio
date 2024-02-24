@@ -1,7 +1,7 @@
 
 import '../styles/Contact.css'
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 
 import linkedin from '../assets/linkedin.svg'
