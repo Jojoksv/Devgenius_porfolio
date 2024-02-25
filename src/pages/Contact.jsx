@@ -58,13 +58,13 @@ function Contact() {
                         </div>
                         <div className='socialMedia'>
                             <a href="https://www.linkedin.com/in/joseph-kossouvi-19968320a" target="_blank">
-                                <img src={linkedin} alt="" />
+                                <img src={linkedin} alt="joseph kossouvi linkedin" />
                             </a>
                             <a href="https://www.facebook.com/joseph.kossouvi" target="_blank">
-                                <img src={facebook} alt="" />
+                                <img src={facebook} alt="joseph kossouvi facebook" />
                             </a>
                             <a href="mailto:jkossouvi@gmail.com">
-                                <img src={gmail} alt="" />
+                                <img src={gmail} alt="joseph kossouvi emal" />
                             </a>
                         </div>
                     </div>
