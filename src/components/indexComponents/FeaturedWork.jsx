@@ -14,10 +14,10 @@ function FeaturedWork(){
             </div>
             <div className='projetIMG joseph Kossouvi jojoksv'>
                 <div className='projectItem'>
-                    <img src={projet1} alt=" projet jojoksv joseph Kossouvi jojoksv" />
+                    <img src={projet1} alt=" projet jojoksv joseph Kossouvi jojoksv devgenius" />
                     <div className='autrePro'>
-                        <div className='imgprojet23'><img src={projet2} alt="projet2 joseph Kossouvi jojoksv" /></div>
-                        <div className='imgprojet23'><img src={projet3} alt="projet3 joseph Kossouvi jojoksv" /></div>
+                        <div className='imgprojet23'><img src={projet2} alt="projet2 joseph Kossouvi jojoksv devgenius" /></div>
+                        <div className='imgprojet23'><img src={projet3} alt="projet3 joseph Kossouvi jojoksv devgenius" /></div>
                     </div>
                 </div>
             </div>
